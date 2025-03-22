@@ -2,46 +2,97 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color:rgb(205, 185, 167);
     font-family: Monserrat, sans-serif;
-  }
+}
 
-  nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 10%;
-  }
+body {
+  background-color:rgb(205, 185, 167);
+}
 
-  nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-  }
+header {
+    background-color:rgb(97, 93, 85);
+}
 
-  nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-  }
+h2:hover {
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s;
+}
 
-  nav ul li a:hover {
-    color: limegreen;
-    text-shadow: 1px 1px 2px black;
-    transition: 0.2s;
-  }
+h3:hover {
+  color: #87CEEB;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s;
+}
 
-  button {
-    border: solid;
-    background: limegreen;
-    padding: 12px 30px;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 15px;
-    transition: 0.3s;
-  }
+h4:hover {
+  color: #BF40BF;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s;
+}
 
-  button:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+nav ul li a:hover {
+  color: limegreen;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s;
+}
+
+button {
+  border: solid;
+  background: limegreen;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+figure {
+  display: table;
+}
+
+video {
+  background-color: black;
+  margin: 10px 15px 10px 15px;
+  position: relative;
+  border-radius: 12.5%;
+  border: none;
+  box-shadow: 0 14px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+}
