@@ -51,14 +51,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: limegreen;
+  color: #39FF14;
   text-shadow: 1px 1px 2px black;
   transition: 0.2s;
 }
 
 button {
   border: solid;
-  background: limegreen;
+  background: #39FF14;
   padding: 12px 30px;
   border-radius: 30px;
   font-weight: bold;
@@ -71,28 +71,63 @@ button:hover {
   cursor: pointer;
 }
 
-figure {
-  display: table;
+body:where(:not(:header)) {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.article-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five';
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+}
+
+article {
+  display: grid;
+  background-color:rgb(161, 145, 132);
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.article-content:nth-child(1) {
+  grid-area: one;
+}
+
+.article-content:nth-child(2) {
+  grid-area: two;
+}
+
+.article-content:nth-child(3) {
+  grid-area: three;
+}
+
+.article-content:nth-child(4) {
+  grid-area: four;
+}
+
+.article-content:nth-child(5) {
+  grid-area: five;
+}
+
+section {
+  border: 2px solid black; 
 }
 
 video {
   background-color: black;
   margin: 10px 15px 10px 15px;
-  position: relative;
-  border-radius: 12.5%;
+  float: right;
+  border-radius: 2rem;
   border: none;
   box-shadow: 0 14px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-label {
-  font-weight: bold;
-  display: block;
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-figcaption {
-  display: table-caption;
-  caption-side: top;
 }
