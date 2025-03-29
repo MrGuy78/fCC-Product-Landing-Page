@@ -15,19 +15,19 @@ header {
 
 h2:hover {
   color: red;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 4px 2px 5px black;
   transition: 0.2s;
 }
 
 h3:hover {
-  color: #87CEEB;
-  text-shadow: 1px 1px 2px black;
+  color: #00ceeb;
+  text-shadow: 4px 2px 5px black;
   transition: 0.2s;
 }
 
 h4:hover {
   color: #BF40BF;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 4px 2px 5px black;
   transition: 0.2s;
 }
 
@@ -119,15 +119,28 @@ article {
   grid-area: five;
 }
 
-section {
-  border: 2px solid black; 
+figure {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+section > h3 {
+  text-align: center;
+  padding-bottom: 0.3rem;
 }
 
 video {
   background-color: black;
   margin: 10px 15px 10px 15px;
-  float: right;
   border-radius: 2rem;
   border: none;
-  box-shadow: 0 14px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 14px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  display: grid;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 10px 14px 10px 1px rgba(0, 0, 0, 0.3);
 }
