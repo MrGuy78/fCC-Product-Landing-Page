@@ -14,22 +14,42 @@ header {
 }
 
 h2:hover {
-  color: red;
-  text-shadow: 4px 2px 5px black;
+  color: white;
+  text-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 5px hsl(0 100% 50% / 1),
+      0 0 7px hsl(0 100% 50% / 1),
+      0 0 15px hsl(0 100% 50% / 1),
+      0 0 20px hsl(0 100% 50% / 1),
+      0 0 30px hsl(0 100% 50% / 1);
   transition: 0.2s;
 }
 
 h3:hover {
-  color: #00ceeb;
-  text-shadow: 4px 2px 5px black;
+  color: hsl(0 0 100 / 1);
+  text-shadow: 
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 1em hsl(240 100 50 / 1),
+      0 0 2em hsl(240 100 50 / 1),
+      0 0 3em hsl(240 100 50 / 1),
+      0 0 5em hsl(240 100 50 / 1),
+      0 0 10em hsl(240 100 50 / 1);
   transition: 0.2s;
 }
 
 h4:hover {
-  color: white;
-  text-shadow: 4px 2px 5px #BF40BF, 8px 6px 25px #BF40BF, 14px 12px 45px #BF40BF;
+  color: hsl(0 0 100 / 1);
+  text-shadow: 
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 1em #800080,
+      0 0 2em #800080,
+      0 0 3em #800080,
+      0 0 5em #800080,
+      0 0 10em #800080;
   transition: 0.2s;
-  
 }
 
 nav {
@@ -58,7 +78,7 @@ nav ul li a:hover {
       0 0 10px #fff,
       0 0 21px #fff,
       0 0 52px #0fa,
-      3px 3px 102px #008000,
+      3px 3px 62px #008000,
       4px 4px 142px #32cd32,
       0 0 182px #32cd32,
       0 0 221px #0fa;
