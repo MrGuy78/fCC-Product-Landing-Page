@@ -10,40 +10,52 @@ body {
 }
 
 header {
-    background-color:rgb(97, 93, 85);
+    /* background-color:rgb(97, 93, 85); */
+    background-color:black;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+}
+
+h2, h4, li {
+  text-shadow: 1px 1px white;
 }
 
 h2:hover {
-  color: white;
+  color: #fff;
   text-shadow:
+      0 0 5px #fff,
+      0 0 5px #fff,
       0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 5px hsl(0 100% 50% / 1),
-      0 0 7px hsl(0 100% 50% / 1),
-      0 0 15px hsl(0 100% 50% / 1),
-      0 0 20px hsl(0 100% 50% / 1),
-      0 0 30px hsl(0 100% 50% / 1);
+      0 0 5px hsl(0 100 50),
+      0 0 5px hsl(0 100 50),
+      0 0 10px hsl(0 100 50),
+      0 0 20px hsl(0 100 50),
+      0 0 20px hsl(0 100 50);
   transition: 0.2s;
 }
 
 h3:hover {
   color: hsl(0 0 100 / 1);
   text-shadow: 
+      /* 0 0 5px #fff, */
+      0 0 5px #fff,
       0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 1em hsl(240 100 50 / 1),
-      0 0 2em hsl(240 100 50 / 1),
-      0 0 3em hsl(240 100 50 / 1),
-      0 0 5em hsl(240 100 50 / 1),
-      0 0 10em hsl(240 100 50 / 1);
+      0 0 5px hsl(240 100 50),
+      0 0 12px hsl(240 100 50),
+      0 0 14px hsl(240 100 50),
+      0 0 20px hsl(240 100 50),
+      0 0 20px hsl(240 100 50);
   transition: 0.2s;
 }
 
 h4:hover {
-  color: hsl(0 0 100 / 1);
+  color: #fff;
   text-shadow: 
+      0 0 5px #fff,
+      0 0 5px #fff,
       0 0 10px #fff,
-      0 0 20px #fff,
       0 0 1em #800080,
       0 0 2em #800080,
       0 0 3em #800080,
@@ -56,7 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 
 nav ul li {
@@ -76,12 +88,12 @@ nav ul li a:hover {
   text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 52px #0fa,
-      3px 3px 62px #008000,
-      4px 4px 142px #32cd32,
-      0 0 182px #32cd32,
-      0 0 221px #0fa;
+      0 0 20px #fff,
+      0 0 5px hsl(120 100 50),
+      0 0 12px hsl(120 100 50),
+      0 0 14px hsl(120 100 50),
+      0 0 20px hsl(120 100 50),
+      0 0 20px hsl(120 100 50);
   transition: 0.2s;
 }
 
@@ -170,6 +182,7 @@ video {
 
 p {
   display: grid;
+  background-color:rgb(117, 111, 101);
   padding: 5px;
   border: 2px solid black;
   border-radius: 0.5rem;
