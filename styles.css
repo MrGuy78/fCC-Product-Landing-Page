@@ -15,10 +15,10 @@ header {
 }
 
 h2, h3, h4 {
-  padding: 10px;
+  padding: 20px;
 }
 
-h2, h4, li {
+h2, h3, h4, li {
   text-shadow: 1px 1px white;
 }
 
@@ -39,14 +39,14 @@ h2:hover {
 h3:hover {
   color: hsl(0 0 100 / 1);
   text-shadow: 
-      /* 0 0 5px #fff, */
+      0 0 5px #fff,
       0 0 5px #fff,
       0 0 10px #fff,
-      0 0 5px hsl(240 100 50),
-      0 0 12px hsl(240 100 50),
-      0 0 14px hsl(240 100 50),
-      0 0 20px hsl(240 100 50),
-      0 0 20px hsl(240 100 50);
+      0 0 5px hsl(240 100 70),
+      0 0 12px hsl(240 100 70),
+      0 0 14px hsl(240 100 70),
+      0 0 20px hsl(240 100 70),
+      0 0 20px hsl(240 100 70);
   transition: 0.2s;
 }
 
@@ -134,7 +134,8 @@ body:where(:not(:header)) {
 
 article {
   display: grid;
-  background-color:rgb(161, 145, 132);
+  /* background-color:rgb(161, 145, 132); */
+  background-color: black;
   border: 2px solid black;
   padding: 2rem;
   margin: 0.5rem;
@@ -169,7 +170,7 @@ figure {
 
 section > h3 {
   text-align: center;
-  padding-bottom: 0.3rem;
+  /* padding: 10px; */
 }
 
 video {
