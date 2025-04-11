@@ -10,57 +10,57 @@ body {
 }
 
 header {
-    /* background-color:rgb(97, 93, 85); */
-    background-color:black;
+    background-color:rgb(97, 93, 85);
 }
 
-h2, h3, h4 {
-  padding: 20px;
+h3 {
+  margin: 10px;
+  padding: 10px;
 }
 
 h2, h3, h4, li {
-  text-shadow: 1px 1px white;
+  text-shadow: 5px 5px 5px rgb(75, 74, 74);
 }
 
 h2:hover {
   color: #fff;
   text-shadow:
-      0 0 5px #fff,
-      0 0 5px #fff,
+      0 0 7px #fff,
       0 0 10px #fff,
-      0 0 5px hsl(0 100 50),
-      0 0 5px hsl(0 100 50),
-      0 0 10px hsl(0 100 50),
-      0 0 20px hsl(0 100 50),
-      0 0 20px hsl(0 100 50);
+      0 0 20px #fff,
+      0 0 5px hsl(120 100 50),
+      0 0 12px hsl(120 100 50),
+      0 0 14px hsl(120 100 50),
+      0 0 20px hsl(120 100 50),
+      0 0 20px hsl(120 100 50);
   transition: 0.2s;
 }
 
 h3:hover {
-  color: hsl(0 0 100 / 1);
-  text-shadow: 
-      0 0 5px #fff,
-      0 0 5px #fff,
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
       0 0 10px #fff,
-      0 0 5px hsl(240 100 70),
-      0 0 12px hsl(240 100 70),
-      0 0 14px hsl(240 100 70),
-      0 0 20px hsl(240 100 70),
-      0 0 20px hsl(240 100 70);
+      0 0 20px #fff,
+      0 0 5px hsl(240 100 50),
+      0 0 12px hsl(240 100 50),
+      0 0 14px hsl(240 100 50),
+      0 0 20px hsl(240 100 50),
+      0 0 20px hsl(240 100 50);
   transition: 0.2s;
 }
 
 h4:hover {
   color: #fff;
-  text-shadow: 
-      0 0 5px #fff,
-      0 0 5px #fff,
+  text-shadow:
+      0 0 7px #fff,
       0 0 10px #fff,
-      0 0 1em #800080,
-      0 0 2em #800080,
-      0 0 3em #800080,
-      0 0 5em #800080,
-      0 0 10em #800080;
+      0 0 20px #fff,
+      0 0 5px hsl(120 100 50),
+      0 0 12px hsl(120 100 50),
+      0 0 14px hsl(120 100 50),
+      0 0 20px hsl(120 100 50),
+      0 0 20px hsl(120 100 50);
   transition: 0.2s;
 }
 
@@ -68,7 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 10%;
+  padding: 20px 10%;
 }
 
 nav ul li {
@@ -134,8 +134,7 @@ body:where(:not(:header)) {
 
 article {
   display: grid;
-  /* background-color:rgb(161, 145, 132); */
-  background-color: black;
+  background-color:rgb(161, 145, 132);
   border: 2px solid black;
   padding: 2rem;
   margin: 0.5rem;
